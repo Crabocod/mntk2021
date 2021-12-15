@@ -1,0 +1,1 @@
+<a class="btn-success" href="#">Заявка отправлена</a>

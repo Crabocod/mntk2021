@@ -1,0 +1,315 @@
+.remodal form {
+    max-width: 322px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.remodal .form-row {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.remodal .title {
+    color: #44494A;
+}
+
+.remodal .form-row label {
+    display: block;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 9px;
+    color: #44494A;
+}
+
+.remodal .form-row input {
+    border-radius: 0px;
+    width: 100%;
+}
+
+.remodal .form-row button {
+    margin-top: 0px;
+    background: #FCD816;
+    color: white;
+}
+
+.remodal .btns-control {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.remodal .btn {
+    border: none;
+    font-weight: 500;
+    display: table;
+    padding: 8px 24px;
+    background: #9FBAF4;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    transition: all .2s;
+    white-space: nowrap;
+    cursor: pointer;
+    margin: 0 5px;
+    text-align: center;
+    border-radius: 0px;
+}
+
+.remodal .btn.btn-yellow {
+    background: #FCD816;
+    padding: 10px 24px;
+    width: 170px;
+    height: 45px;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.remodal .btn.btn-black {
+    background: #383838;
+    padding: 10px 24px;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 10px 14px;
+    width: 170px;
+    height: 45px;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.remodal.remodal-error, .remodal.remodal-success, .remodal.remodal-delete {
+    max-width: 470px;
+    padding: 20px;
+}
+
+.remodal.remodal-error form, .remodal.remodal-success form, .remodal.remodal-delete form {
+    max-width: 500px;
+}
+
+.remodal.remodal-error .message, .remodal.remodal-success .message, .remodal.remodal-delete .message {
+    text-align: center;
+    font-size: 18px;
+}
+
+.remodal.remodal-error .btn-submit, .remodal.remodal-success .btn-submit, .remodal.remodal-delete .btn-submit {
+    width: 170px;
+    height: 45px;
+    margin: 0px auto;
+    margin-top: 10px;
+}
+
+.remodal.remodal-error .form-row, .remodal.remodal-success .form-row, .remodal.remodal-delete .form-row {
+    display: flex;
+}
+
+.auth-block {
+    margin-bottom: 20px;
+}
+
+.auth-block .confirm-email-message, .auth-block .password-recovery-message {
+    color: #FFFFFF;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 1.5;
+    text-transform: none;
+    border: 1px solid rgba(243, 210, 7, 0.5);
+    padding: 10px;
+}
+
+.auth-page a.pas {
+    margin: 20px 0;
+}
+
+.auth-page a.pas:hover {
+    text-decoration-line: none;
+}
+
+.event-block {
+    text-decoration: none;
+    min-width: 169px;
+}
+
+.news-rows a {
+    color: inherit;
+}
+
+.news-rows a:hover {
+    text-decoration-line: none;
+}
+
+.programs-btn[disabled=disabled] {
+    background: #ccc;
+    cursor: default;
+}
+
+.remodal.remodal-comment form {
+    max-width: 100%;
+}
+
+.remodal.remodal-comment form textarea {
+    width: calc(100% - 20px);
+    max-width: 100%;
+    max-height: unset;
+    resize: vertical;
+}
+
+.remodal.remodal-comment .title {
+    text-align: left;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.timer-block {
+    display: block;
+}
+
+label.btn {
+    position: relative;
+}
+
+label.btn input {
+    visibility: hidden;
+    opacity: 0;
+    height: 100%;
+    position: absolute;
+    cursor: pointer;
+    left: 0px;
+    top: 0px;
+}
+
+.admin-content .btn {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 126px;
+}
+
+.news-row_img img {
+    width: 284px;
+    height: 278px;
+}
+
+.news-row iframe {
+    width: 284px;
+    height: 278px;
+}
+
+.remodal .btn.btn-yellow {
+    height: max-content;
+}
+
+.remodal .btn.btn-black {
+    height: max-content;
+}
+
+.events-table .row-form {
+    cursor: pointer;
+}
+
+.events-table .row-form_item:first-child {
+    width: 100px;
+}
+
+.programs-info_block img {
+    max-width: 100%;
+}
+
+.speak-block_info-block img {
+    max-width: 100%;
+}
+
+.member-btn.js-allow-user {
+    background: #1B9F28 !important;
+    margin-left: 15px;
+}
+
+.back-admin a {
+    text-decoration: none;
+}
+.archive-table .row-form_item {
+    cursor: pointer;
+}
+
+.update_archive .admin-block.new-event {
+    margin-bottom: 0px;
+}
+
+.archive-table .row-form .row-form_item:first-child {
+    min-width: 100px;
+}
+
+.section-feedbacks-btn{
+    margin-bottom: 50px;
+}
+
+.news-row_img img {
+    height: auto;
+}
+
+.public-archive-rows .news-row {
+    justify-content: space-between;
+}
+
+.event-btn {
+    white-space: unset;
+    width: auto;
+    word-wrap: break-word;
+    display: inherit;
+}
+
+.ck-content {
+    word-wrap:break-word;
+}
+
+.ck-content .image img {
+    width: auto;
+}
+
+.programs-info_block {
+    max-height: 100%;
+}
+
+.programs-text_block {
+    width: 100%;
+    max-width: unset;
+}
+
+@media (max-width: 992px) {
+    .events-about .theme-block {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .events-about .theme-block .programs-info_blocks {
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .events-about .theme-block .programs-info_blocks .programs-text_block {
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .events-about .theme-block .programs-info_blocks .programs-info_block {
+        max-width: unset;
+    }
+}
+
+.events-about .theme-block .programs-info_blocks .programs-text_block {
+    padding: 25px 10px 16px 20px;
+}
+
